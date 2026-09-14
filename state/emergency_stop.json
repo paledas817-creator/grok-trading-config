@@ -1,7 +1,10 @@
 {
-  "active": true,
-  "activated_at": "2026-09-14T11:29:45Z",
-  "activated_by": "OWNER",
-  "reason": "Owner confirmed in Trading core: emergency stop stays on. No paper loops.",
+  "active": false,
+  "activated_at": null,
+  "activated_by": null,
+  "reason": null,
+  "released_at": "2026-09-14T12:04:25Z",
+  "released_by": "OWNER",
+  "release_note": "Owner: start trading only forex (DEMO MT5)",
   "release_requires": "OWNER explicit confirmation"
 }
