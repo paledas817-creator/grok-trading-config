@@ -1,7 +1,7 @@
 {
   "version": 2,
   "last_modified_by": "OWNER",
-  "last_modified_at": "2026-09-14T12:13:01Z",
+  "last_modified_at": "2026-09-14T12:14:59Z",
   "environment": "DEMO",
   "venue": "MT5 MetaQuotes-Demo",
   "account": "112608957",
@@ -22,10 +22,13 @@
     "EURUSD",
     "GBPUSD",
     "USDJPY",
-    "USDCHF",
     "AUDUSD",
+    "USDCHF",
     "USDCAD",
-    "NZDUSD"
+    "NZDUSD",
+    "AUDCAD",
+    "EURGBP",
+    "EURJPY"
   ],
   "paused_instruments": [
     "BTCUSD",
