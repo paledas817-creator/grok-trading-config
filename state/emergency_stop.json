@@ -3,8 +3,8 @@
   "activated_at": null,
   "activated_by": null,
   "reason": null,
-  "released_at": "2026-09-14T12:04:25Z",
-  "released_by": "OWNER",
-  "release_note": "Owner: start trading only forex (DEMO MT5)",
+  "released_at": "2026-09-14T12:07:17Z",
+  "released_by": "OWNER/Controller",
+  "release_note": "Forex-only DEMO on MT5 MetaQuotes-Demo 112608957. Crypto paused.",
   "release_requires": "OWNER explicit confirmation"
 }
