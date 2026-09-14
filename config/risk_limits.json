@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "last_modified_by": "OWNER/Controller",
-  "last_modified_at": "2026-09-14T12:06:00Z",
+  "last_modified_by": "OWNER",
+  "last_modified_at": "2026-09-14T12:13:01Z",
   "environment": "DEMO",
   "venue": "MT5 MetaQuotes-Demo",
   "account": "112608957",
@@ -18,11 +18,27 @@
   "max_drawdown_pct": 10,
   "max_consecutive_losses": 4,
   "max_leverage": 1,
-  "allowed_instruments": ["EURUSD", "GBPUSD", "USDJPY", "USDCHF", "AUDUSD", "USDCAD", "NZDUSD"],
-  "paused_instruments": ["BTCUSD", "ETHUSD"],
+  "allowed_instruments": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY",
+    "USDCHF",
+    "AUDUSD",
+    "USDCAD",
+    "NZDUSD"
+  ],
+  "paused_instruments": [
+    "BTCUSD",
+    "ETHUSD"
+  ],
   "max_spread_pct": 0.5,
   "min_liquidity_usd": 100000,
   "max_orders_per_hour": 2,
-  "trading_sessions_utc": ["00:00-23:59"],
-  "notes": "Controller 2026-09-14: forex-only DEMO; daily target $50; daily risk $100; ~$25/trade. Execution fills controller-driven via MT5."
+  "trading_sessions_utc": [
+    "00:00-23:59"
+  ],
+  "notes": "Controller 2026-09-14: forex-only DEMO; daily target $50; daily risk $100; ~$25/trade. Execution fills controller-driven via MT5.",
+  "per_trade_max_loss_usd": 25,
+  "position_sizing_mode": "fixed_dollar_risk",
+  "position_sizing_risk_usd": 25
 }
