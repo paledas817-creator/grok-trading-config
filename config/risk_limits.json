@@ -30,5 +30,9 @@
   ],
   "asset_class": "forex",
   "last_modified_by": "OWNER",
-  "last_modified_at": "2026-09-14T12:05:15Z"
+  "last_modified_at": "2026-09-14T12:06:28Z",
+  "daily_profit_target_usd": 50,
+  "per_trade_max_loss_usd": 25,
+  "stop_trading_when_daily_target_hit": true,
+  "stop_trading_when_daily_loss_hit": true
 }
