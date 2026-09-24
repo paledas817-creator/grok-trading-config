@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "last_modified_by": "OWNER",
-  "last_modified_at": "2026-09-14T12:14:59Z",
+  "last_modified_by": "OWNER via Master",
+  "last_modified_at": "2026-09-24T08:35:59Z",
   "environment": "DEMO",
   "venue": "MT5 MetaQuotes-Demo",
   "account": "112608957",
@@ -13,7 +13,7 @@
   "max_total_exposure_usd": 2000,
   "max_simultaneous_positions": 3,
   "daily_loss_limit_usd": 100,
-  "daily_profit_target_usd": 50,
+  "daily_profit_target_usd": 500,
   "weekly_loss_limit_usd": 300,
   "max_drawdown_pct": 10,
   "max_consecutive_losses": 4,
@@ -43,5 +43,6 @@
   "notes": "Controller 2026-09-14: forex-only DEMO; daily target $50; daily risk $100; ~$25/trade. Execution fills controller-driven via MT5.",
   "per_trade_max_loss_usd": 25,
   "position_sizing_mode": "fixed_dollar_risk",
-  "position_sizing_risk_usd": 25
+  "position_sizing_risk_usd": 25,
+  "owner_note": "Owner raised day target to $500; keep per-trade $25 and day loss $100"
 }
