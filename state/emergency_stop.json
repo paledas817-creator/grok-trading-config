@@ -1,10 +1,12 @@
 {
-  "active": false,
+  "active": true,
   "activated_at": null,
   "activated_by": null,
-  "reason": null,
+  "reason": "Owner said stop trading 2026-10-04 ~18:32 Asia/Calcutta",
   "released_at": "2026-09-14T12:07:17Z",
   "released_by": "OWNER/Controller",
   "release_note": "Forex-only DEMO on MT5 MetaQuotes-Demo 112608957. Crypto paused.",
-  "release_requires": "OWNER explicit confirmation"
+  "release_requires": "OWNER explicit confirmation",
+  "updated_at": "2026-10-04T13:02:00Z",
+  "updated_by": "shyam/Master Grok"
 }
